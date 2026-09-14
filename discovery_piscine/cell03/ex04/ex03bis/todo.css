@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding-top: 50px; background-color: #f7f9fc;}
+button { padding: 10px 20px; font-size: 16px; background-color: #28a745; color: white; cursor: pointer; margin-bottom: 20px; border: none; }
+#ft_list { width: 300px; display: flex; flex-direction: column; gap: 10px; }
+.todo-item { background-color: white; padding: 15px; border-radius: 5px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); word-break: break-all; }
