@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ตั้งค่ารูปภาพที่ 1 และ 2 ให้เป็น Parallax (ยึดติดอยู่กับที่เวลาเลื่อนจอ) */
+.parallax-1, .parallax-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-1 {
+    background-image: url("titan.jpg");
+}
+
+.parallax-2 {
+    background-image: url("dragonball.jpg");
+}
+
+/* กล่องข้อความตรงกลางรูป */
+.center-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* บล็อกสีดำคั่นกลาง */
+.black-block {
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
