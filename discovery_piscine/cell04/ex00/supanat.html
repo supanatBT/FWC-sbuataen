@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kittipong Meesuk — résumé</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style> html { scroll-behavior: smooth; } </style>
+</head>
+<body class="theme-slate">
+
+  <!-- fixed navigation bar (left rail on desktop, top bar on mobile) -->
+  <nav class="navrail" aria-label="Sections of this résumé">
+    <a class="navrail__link" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21H3z"/></svg>
+      <span class="navrail__label">Home</span>
+    </a>
+    <a class="navrail__link" href="#profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+      <span class="navrail__label">Profile</span>
+    </a>
+    <a class="navrail__link" href="#work">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5h6v2"/></svg>
+      <span class="navrail__label">Work</span>
+    </a>
+    <a class="navrail__link" href="#contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span class="navrail__label">Contact</span>
+    </a>
+  </nav>
+
+  <div class="page">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9">
+
+          <!-- 1. photo, name, job title -->
+          <section class="section" id="profile">
+            <div class="row align-items-center g-4 g-lg-5">
+              <div class="col-sm-5">
+                <img class="portrait" src="img/photo2.svg" alt="Portrait of Kittipong Meesuk">
+              </div>
+              <div class="col-sm-7">
+                <h1 class="intro__name">Kittipong<br>Meesuk</h1>
+                <p class="intro__role">Junior front-end developer — layout, type, and small details</p>
+                <p>
+                  Former print shop apprentice, now writing CSS instead of setting margins
+                  by hand. I care about how a page holds together when the text gets long
+                  and the screen gets narrow.
+                </p>
+                <ul class="meta">
+                  <li>Nonthaburi, Thailand</li>
+                  <li>Thai (native), English (working)</li>
+                  <li>Open to part-time work while studying</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2. experience and skills -->
+          <section class="section" id="work">
+            <h2 class="section__title">Experience and skills</h2>
+            <div class="row g-5">
+              <div class="col-lg-7">
+                <article class="job">
+                  <div class="job__when">2026</div>
+                  <h3 class="job__title">Piscine Discovery student</h3>
+                  <p class="job__where">42 Bangkok</p>
+                  <p>Shell, Git, HTML and CSS in four weeks, ending with this rush.
+                     Handled the layout system and the responsive breakpoints for our site.</p>
+                </article>
+                <article class="job">
+                  <div class="job__when">2024 — 2025</div>
+                  <h3 class="job__title">Print shop apprentice</h3>
+                  <p class="job__where">Rung Ruang Printing</p>
+                  <p>Prepared files for print, fixed customer artwork, and explained to
+                     people why their 72 dpi logo would not survive an A2 poster.</p>
+                </article>
+                <article class="job">
+                  <div class="job__when">2023</div>
+                  <h3 class="job__title">Freelance poster design</h3>
+                  <p class="job__where">Local bands and markets</p>
+                  <p>Around twenty posters and flyers, most of them printed on a budget.</p>
+                </article>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="skill">
+                  <div class="skill__head"><span>CSS layout</span><span>Comfortable</span></div>
+                  <div class="skill__bar"><span style="width:80%"></span></div>
+                </div>
+                <div class="skill">
+                  <div class="skill__head"><span>HTML</span><span>Comfortable</span></div>
+                  <div class="skill__bar"><span style="width:78%"></span></div>
+                </div>
+                <div class="skill">
+                  <div class="skill__head"><span>Typography</span><span>Strong</span></div>
+                  <div class="skill__bar"><span style="width:88%"></span></div>
+                </div>
+                <div class="skill">
+                  <div class="skill__head"><span>Shell &amp; Git</span><span>Beginner</span></div>
+                  <div class="skill__bar"><span style="width:45%"></span></div>
+                </div>
+
+                <p class="mt-4 mb-2">Also used</p>
+                <div>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">Illustrator</span>
+                  <span class="tag">InDesign</span>
+                  <span class="tag">Grid</span>
+                  <span class="tag">Accessibility basics</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. contact -->
+          <section class="section" id="contact">
+            <h2 class="section__title">Get in touch</h2>
+            <div class="row g-3">
+              <div class="col-md-4">
+                <a class="contact-link" href="mailto:kittipong@student.42bangkok.com">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                  <span>Email<small>kittipong@student.42bangkok.com</small></span>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a class="contact-link" href="tel:+66810000000">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 12l5 2v4a2 2 0 0 1-2.2 2A17 17 0 0 1 3 5.2 2 2 0 0 1 5 3z"/></svg>
+                  <span>Phone<small>+66 81 000 0000</small></span>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>
+                  <span>GitHub<small>github.com/kittipong</small></span>
+                </a>
+              </div>
+            </div>
+            <p class="foot mt-5">Back to the <a href="index.html">home page</a>.</p>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // highlight the nav link of the section currently on screen
+    const links = document.querySelectorAll('.navrail__link[href^="#"]');
+    const byId = {};
+    links.forEach(l => byId[l.getAttribute('href').slice(1)] = l);
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(l => l.classList.remove('is-active'));
+          byId[entry.target.id].classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+
+    document.querySelectorAll('section[id]').forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
