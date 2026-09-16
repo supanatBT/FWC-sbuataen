@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kittipong Meesuk — résumé</title>
+  <title>Supanat — résumé</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
@@ -40,18 +40,19 @@
           <section class="section" id="profile">
             <div class="row align-items-center g-4 g-lg-5">
               <div class="col-sm-5">
-                <img class="portrait" src="img/photo2.svg" alt="Portrait of Kittipong Meesuk">
+                <img class="portrait" src="img/supant.jpg" alt="Portrait of Supanat">
               </div>
               <div class="col-sm-7">
-                <h1 class="intro__name">Kittipong<br>Meesuk</h1>
-                <p class="intro__role">Junior front-end developer — layout, type, and small details</p>
+                <h1 class="intro__name">Supanat Buataeng</h1>
+                <p class="intro__role">AI engineer — models, data pipelines, and the glue in between</p>
                 <p>
-                  Former print shop apprentice, now writing CSS instead of setting margins
-                  by hand. I care about how a page holds together when the text gets long
-                  and the screen gets narrow.
+                  I build and ship machine learning systems: preparing the data, training
+                  the model, and keeping the thing running once it is in front of real
+                  users. Currently at the 42 Bangkok Piscine, filling in the parts of
+                  software engineering that a notebook never taught me.
                 </p>
                 <ul class="meta">
-                  <li>Nonthaburi, Thailand</li>
+                  <li>Suphan Buri, Thailand</li>
                   <li>Thai (native), English (working)</li>
                   <li>Open to part-time work while studying</li>
                 </ul>
@@ -69,48 +70,63 @@
                   <h3 class="job__title">Piscine Discovery student</h3>
                   <p class="job__where">42 Bangkok</p>
                   <p>Shell, Git, HTML and CSS in four weeks, ending with this rush.
-                     Handled the layout system and the responsive breakpoints for our site.</p>
+                     Built the layout system and the responsive breakpoints for our site.</p>
                 </article>
                 <article class="job">
-                  <div class="job__when">2024 — 2025</div>
-                  <h3 class="job__title">Print shop apprentice</h3>
-                  <p class="job__where">Rung Ruang Printing</p>
-                  <p>Prepared files for print, fixed customer artwork, and explained to
-                     people why their 72 dpi logo would not survive an A2 poster.</p>
+                  <div class="job__when">2026</div>
+                  <h3 class="job__title">Catalogue data pipeline</h3>
+                  <p class="job__where">Modutech conveyor belt catalogues</p>
+                  <p>Turned PDF catalogues into chatbot-ready JSON: pdfplumber for text pages, Tesseract OCR for image-only
+                     tables, and Gemini with Pydantic schemas for structure. Merged 84 spec pages into one catalogue of 68 belt models.</p>
                 </article>
                 <article class="job">
-                  <div class="job__when">2023</div>
-                  <h3 class="job__title">Freelance poster design</h3>
-                  <p class="job__where">Local bands and markets</p>
-                  <p>Around twenty posters and flyers, most of them printed on a budget.</p>
+                  <div class="job__when">2026</div>
+                  <h3 class="job__title">Multimodal RAG sales chatbot</h3>
+                  <p class="job__where">Movex conveyor chain catalogue</p>
+                  <p>Identifies products from photos (ViT + LoRA, SigLIP, Qdrant) and answers spec questions through a NetworkX
+                     knowledge graph and Gemini function calling. Reached 98% in an ablation study; the graph lifted compatibility answers from 40% to 100%.</p>
+                </article>
+                <article class="job">
+                  <div class="job__when">2026</div>
+                  <h3 class="job__title">Pet Insight 360</h3>
+                  <p class="job__where">Full-stack pet photo analysis app</p>
+                  <p>A MobileNetV2 emotion classifier plus Gemini vision and advice steps, orchestrated with LangGraph behind FastAPI.
+                     Deployed with Docker on Google Cloud Run, with a React frontend, Firebase sign-in and MLflow tracking.</p>
                 </article>
               </div>
 
               <div class="col-lg-5">
                 <div class="skill">
-                  <div class="skill__head"><span>CSS layout</span><span>Comfortable</span></div>
-                  <div class="skill__bar"><span style="width:80%"></span></div>
-                </div>
-                <div class="skill">
-                  <div class="skill__head"><span>HTML</span><span>Comfortable</span></div>
-                  <div class="skill__bar"><span style="width:78%"></span></div>
-                </div>
-                <div class="skill">
-                  <div class="skill__head"><span>Typography</span><span>Strong</span></div>
+                  <div class="skill__head"><span>Python</span><span>Strong</span></div>
                   <div class="skill__bar"><span style="width:88%"></span></div>
                 </div>
                 <div class="skill">
-                  <div class="skill__head"><span>Shell &amp; Git</span><span>Beginner</span></div>
-                  <div class="skill__bar"><span style="width:45%"></span></div>
+                  <div class="skill__head"><span>PyTorch</span><span>Comfortable</span></div>
+                  <div class="skill__bar"><span style="width:78%"></span></div>
+                </div>
+                <div class="skill">
+                  <div class="skill__head"><span>Data extraction &amp; OCR pipelines</span><span>Comfortable</span></div>
+                  <div class="skill__bar"><span style="width:72%"></span></div>
+                </div>
+                <div class="skill">
+                  <div class="skill__head"><span>Shell &amp; Git</span><span>Working on it</span></div>
+                  <div class="skill__bar"><span style="width:55%"></span></div>
                 </div>
 
                 <p class="mt-4 mb-2">Also used</p>
                 <div>
-                  <span class="tag">Bootstrap</span>
-                  <span class="tag">Illustrator</span>
-                  <span class="tag">InDesign</span>
-                  <span class="tag">Grid</span>
-                  <span class="tag">Accessibility basics</span>
+                  <span class="tag">Hugging Face</span>
+                  <span class="tag">Qdrant</span>
+                  <span class="tag">NetworkX</span>
+                  <span class="tag">Gemini API</span>
+                  <span class="tag">LangGraph</span>
+                  <span class="tag">Pydantic</span>
+                  <span class="tag">Tesseract OCR</span>
+                  <span class="tag">pandas</span>
+                  <span class="tag">FastAPI</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">Google Cloud Run</span>
+                  <span class="tag">MLflow</span>
                 </div>
               </div>
             </div>
@@ -121,21 +137,21 @@
             <h2 class="section__title">Get in touch</h2>
             <div class="row g-3">
               <div class="col-md-4">
-                <a class="contact-link" href="mailto:kittipong@student.42bangkok.com">
+                <a class="contact-link" href="mailto:66070197@kimtl.ac.th">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-                  <span>Email<small>kittipong@student.42bangkok.com</small></span>
+                  <span>Email<small>66070197@kimtl.ac.th</small></span>
                 </a>
               </div>
               <div class="col-md-4">
-                <a class="contact-link" href="tel:+66810000000">
+                <a class="contact-link" href="tel:+668968902134">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 12l5 2v4a2 2 0 0 1-2.2 2A17 17 0 0 1 3 5.2 2 2 0 0 1 5 3z"/></svg>
-                  <span>Phone<small>+66 81 000 0000</small></span>
+                  <span>Phone<small>+66 96 8902134</small></span>
                 </a>
               </div>
               <div class="col-md-4">
-                <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener">
+                <a class="contact-link" href="https://github.com/supanatBT" target="_blank" rel="noopener">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>
-                  <span>GitHub<small>github.com/kittipong</small></span>
+                  <span>GitHub<small>github.com/supanat</small></span>
                 </a>
               </div>
             </div>
