@@ -263,7 +263,12 @@ button:focus-visible {
 
 .contact-link svg { width: 22px; height: 22px; flex: none; color: var(--accent); }
 
-.contact-link small { display: block; color: var(--muted); }
+.contact-link small {
+  display: block;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 .foot {
   padding: 2rem 0 3rem;
